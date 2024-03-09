@@ -23,6 +23,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "oldnew";
+  src: url("./src/font/OldNewspaperTypesttf.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 body h1 {
   font-size: 4rem;
@@ -61,4 +67,10 @@ body {
 
 .dune {
   font-family: "dune";
+}
+
+.oldnew{
+  color: #fff;
+  font-family: "oldnew";
+
 }
