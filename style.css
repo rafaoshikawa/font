@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "betrue";
+  src: url("./src/font/BeTrueToYourSchool-Regularttf.ttf") format("opentype"),
+    url("./src/font/BeTrueToYourSchool-Regular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "nasa";
+  src: url("./src/font/nasalization-rg.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "dune";
+  src: url("./src/font/Dune_Risettf.ttf") format("opentype"),
+    url("./src/font/Dune_Riseotf.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body h1 {
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+body {
+  text-align: center;
+  margin-top: 30px;
+  background-color: #29292a;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.fonts {
+  margin-bottom: 100px;
+  border-bottom: 4px solid #ad5e1a;
+}
+
+.betrue {
+  font-size: 5rem;
+  font-family: "betrue";
+}
+.nasa {
+  font-size: 5rem;
+  font-family: "nasa";
+}
+
+.dune {
+  font-family: "dune";
+}
